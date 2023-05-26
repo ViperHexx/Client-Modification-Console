@@ -1,0 +1,1 @@
+javascript:(function() {  if (confirm('Are you sure you want to clear local storage for this website?%27)) {    localStorage.clear();    alert(%27Local storage cleared for %27 + window.location.origin);  }})();
